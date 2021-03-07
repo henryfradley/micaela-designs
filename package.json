@@ -1,0 +1,26 @@
+{
+  "name": "micaela-designs",
+  "version": "1.0.0",
+  "description": "micaela-designs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryfradley/micaela-designs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryfradley/micaela-designs/issues"
+  },
+  "homepage": "https://github.com/henryfradley/micaela-designs#readme",
+  "dependencies": {
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

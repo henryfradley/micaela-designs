@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+
+* { margin:0 0; padding:0 0; box-sizing:border-box; }
+
+:root {
+  --mainColor: #2C353C;
+  --mainContrast: #3D444A;
+  --secondaryColor: #6A7E86;
+  --brown: #A17B6C;
+  --lightBlue: #B1C2CC;
+  --tan: #EAE5D5;
+  --offWhite: #FDFBF5;
+  --line: 1px solid rgba(253,251,245,.3);
+}
+
+
+h1,
+h2,
+h3,
+li {
+  color: var(--offWhite);
+  font-family: 'Old Standard TT', serif;
+  font-weight: 300;
+}
+
+p {
+  color: var(--offWhite);
+  font-family: 'Rubik';
+}
+
+
+
+
+h1 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3.7rem;
+  width: fit-content;
+  letter-spacing: .1rem;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar ul {
+  border-bottom: var(--line);
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 40%;
+  padding-right: 3%;
+  list-style: none;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+
+}
+
+
+.main {
+  background-color: var(--mainColor);
+}
+
+.mainText {
+  padding-left: 10vw;
+  padding-bottom: 35vh;
+  padding-top: 35vh;
+}
+
+
+
+.mainText h3 {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+.getInTouch {
+  border: var(--line);
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+
+}
+
