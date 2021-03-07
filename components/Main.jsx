@@ -1,4 +1,9 @@
 
+import Image from 'next/image';
+
+
+
+
 const Main = function(props) {
 
 
@@ -20,6 +25,14 @@ const Main = function(props) {
       <h3>A GRAPHIC DESIGNER BASED IN HONOLULU, HI.</h3>
       <div class="getInTouch"><p>GET IN TOUCH</p></div>
       </div>
+      <div class="illustration">
+      <Image
+        src="/illustration.png"
+        width="1517"
+        height="1000"
+      />
+      </div>
+
 
     </div>
   )

@@ -64,12 +64,13 @@ h1 {
 
 .main {
   background-color: var(--mainColor);
+  overflow: hidden;
 }
 
 .mainText {
   padding-left: 10vw;
   padding-bottom: 35vh;
-  padding-top: 35vh;
+  padding-top: 34vh;
 }
 
 
@@ -87,4 +88,17 @@ h1 {
   padding: 10px 20px;
 
 }
+
+.illustration {
+  position: absolute;
+  width: 60%;
+  height: fit-content;
+  padding: 0 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  line-height: 0
+}
+
+
 
