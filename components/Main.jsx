@@ -20,18 +20,23 @@ const Main = function(props) {
           <li>CONTACT</li>
         </ul>
       </nav>
+      <div class="mainPage">
       <div  class="mainText">
       <h1>HI. I'M MICAELA,</h1>
       <h3>A GRAPHIC DESIGNER BASED IN HONOLULU, HI.</h3>
       <div class="getInTouch"><p>GET IN TOUCH</p></div>
       </div>
-      <div class="illustration">
-      <Image
-        src="/illustration.png"
-        width="1517"
-        height="1000"
-      />
+      {/* <div class="illustration">
+        <Image
+          src="/illustration.png"
+          width="1517"
+          height="1000"
+        />
+      </div> */}
+
       </div>
+
+
 
 
     </div>
