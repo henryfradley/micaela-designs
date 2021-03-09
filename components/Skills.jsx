@@ -14,8 +14,9 @@ const Skills = function() {
       <div class="skillsLeft">
 
             <div class="skillImages">
-              <Fade distance="5vh" delay={500} bottom>
-                <div>
+
+                <div class="skillImageBlock">
+                <Fade distance="5vh" delay={500} bottom>
                   <Image
                     loader={myLoader}
                     src="thumbsup.jpg"
@@ -23,11 +24,13 @@ const Skills = function() {
                     width="300"
                     height="300"
                   />
+                </Fade>
 
                 </div>
-              </Fade>
-              <Fade distance="5vh" delay={600} bottom>
-                <div>
+
+
+                <div class="skillImageBlock">
+                <Fade distance="5vh" delay={600} bottom>
                 <Image
                     loader={myLoader}
                     src="coffeecup.jpg"
@@ -35,11 +38,12 @@ const Skills = function() {
                     width="300"
                     height="300"
                   />
+                </Fade>
                 </div>
-              </Fade>
-              <Fade distance="5vh" delay={700} bottom>
-                <div>
 
+
+                <div class="skillImageBlock">
+                <Fade distance="5vh" delay={700} bottom>
                 <Image
                     loader={myLoader}
                     src="wacom.jpg"
@@ -47,11 +51,12 @@ const Skills = function() {
                     width="300"
                     height="300"
                   />
+                </Fade>
                 </div>
-              </Fade>
-              <Fade distance="5vh" delay={800} bottom>
-                <div>
 
+
+                <div class="skillImageBlock">
+                <Fade distance="5vh" delay={800} bottom>
                 <Image
                     loader={myLoader}
                     src="desk.jpg"
@@ -59,54 +64,92 @@ const Skills = function() {
                     width="300"
                     height="300"
                   />
+                </Fade>
                 </div>
-              </Fade>
+
             </div>
 
       </div>
-      <div>
+
         <div class="goodAt">
-          <h1 class="goodAtHead">WHAT I'M GOOD AT</h1>
+        <Fade distance="5vh" delay={500} bottom>
+          <h1>WHAT I'M GOOD AT</h1>
+        </Fade>
           <div class="boxes">
+
+          <Fade distance="5vh" delay={700} bottom>
+            <div>
             <div class="skillBox">
-              <div>
-                {/* <img src={Icon1} alt="icon1"></img> */}
+              <div class="icon">
+                <Image
+                  src="/icon1.png"
+                  alt="branding"
+                  width="200"
+                  height="200"
+                />
               </div>
-              <div>
+              <div class="iconText">
               <p>CONCEPT DRIVEN BRANDING</p>
               </div>
             </div>
-            <div class="skillBox">
+            </div>
+          </Fade>
+          <Fade distance="5vh" delay={900} bottom>
             <div>
-                {/* <img src={Icon2} alt="icon1"></img> */}
+            <div class="skillBox">
+              <div class="icon">
+                <Image
+                  src="/icon2.png"
+                  alt="illustration"
+                  width="200"
+                  height="200"
+                />
               </div>
-              <div>
+              <div class="iconText">
               <p>ILLUSTRATION</p>
               </div>
             </div>
+            </div>
+          </Fade>
 
-
-            <div class="skillBox">
+          <Fade distance="5vh" delay={1100} bottom>
             <div>
-                {/* <img src={Icon3} alt="icon1"></img> */}
+            <div class="skillBox">
+              <div class="icon">
+                <Image
+                  src="/icon3.png"
+                  alt="web design"
+                  width="200"
+                  height="200"
+                />
               </div>
-              <div>
+              <div class="iconText">
               <p>FRONT END WEB DESIGN</p>
               </div>
             </div>
+            </div>
+          </Fade>
 
-
+          <Fade distance="5vh" delay={1800} bottom>
+            <div>
             <div class="skillBox">
-              <div>
-                {/* <img src={Icon4} alt="icon1"></img> */}
+              <div class="icon">
+                <Image
+                  src="/icon4.png"
+                  alt="problem solving"
+                  width="200"
+                  height="200"
+                />
               </div>
-              <div>
+              <div class="iconText">
               <p>CREATIVE PROBLEM SOLVING</p>
               </div>
             </div>
+            </div>
+          </Fade>
           </div>
         </div>
-      </div>
+
     </div>
   )
 }
