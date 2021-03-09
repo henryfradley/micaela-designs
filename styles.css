@@ -353,5 +353,123 @@ h1 {
   width: 20vw;
 }
 
+.contactPage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.contact {
+  background-color: var(--mainContrast);
+  position: relative;
+  min-height: 500px;
+
+}
+
+.contactText {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  /* background-color: var(--mainColor);
+  opacity: .5; */
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.workTogether {
+  width: 80%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+}
+
+
+
+
+.contactImage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  min-height: 500px;
+}
+
+.contactText h1 {
+  opacity: 1;
+  font-size: 2.8rem;
+  padding-bottom: 4vh;
+  width: 100%;
+}
+
+.contactText a {
+  color: var(--offWhite);
+  font-family: 'Rubik';
+  font-size: 1.3rem;
+}
+
+.socials {
+  padding-top: 4vh;
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formHolder {
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  padding: 25% 12.5%;
+  background-color: var(--mainContrast);
+}
+
+.contactForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  background-color: var(--mainContrast);
+  font-family: 'Rubik';
+  color: var(--offWhite);
+  border: var(--line);
+  width: 100%;
+  padding: 3vh 3vw;
+  font-size: 1.2rem;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  background-color: var(--mainContrast);
+  font-family: 'Rubik';
+  color: var(--offWhite);
+  border: var(--line);
+  width: 100%;
+  padding: 3vh 3vw;
+  font-size: 1.2rem;
+  outline: none;
+  margin-bottom: 1rem;
+
+}
+
+::placeholder {
+  color: var(--offWhite);
+}
+
+.bigInput {
+  padding-bottom: 10vh;
+}
+
+.submitButton {
+  width: fit-content;
+  padding: 1.5vh 1.5vw;
+}
+
+
+
+
+
 
 
