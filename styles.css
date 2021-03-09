@@ -273,6 +273,85 @@ h1 {
 .about {
   display: grid;
   grid-template-columns: 50% 50%;
+  background-color: var(--mainColor)
 }
+
+.favorites {
+  border: 1px solid var(--secondaryColor);
+  padding: 5% 10%;
+}
+
+.favorites p {
+  width: 80%;
+}
+
+.aboutText {
+  padding: 20vh 5vw;
+}
+
+.aboutText h1 {
+  font-size: 3.2rem;
+  padding-bottom: 3vh;
+}
+
+.aboutText p {
+  width: 75%;
+  padding-bottom: 3vh;
+}
+
+.favorites {
+  width: fit-content;
+  min-width: 300px;
+  padding: 1vh 1vw;
+}
+
+.favorites p {
+  width: fit-content;
+  padding: .2rem 0;
+  color: var(--lightBlue);
+
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.myTools {
+  padding: 12vh 0;
+  background-color: var(--lightBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myTools h1 {
+  color: var(--mainColor)
+}
+
+.toolImages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8vh 5vw;
+  background-color: var(--offWhite);
+}
+
+.adobe {
+  height: fit-content;
+  width: 22vw;
+}
+
+.coffee {
+  height: fit-content;
+  width: 8vw;
+}
+
+.office {
+  height: fit-content;
+  width: 20vw;
+}
+
 
 
