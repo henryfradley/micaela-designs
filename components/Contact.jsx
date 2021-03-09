@@ -13,7 +13,7 @@ const myLoader = ({ src, width, quality }) => {
 const Contact = () => {
 
   return (
-    <div class="contactPage">
+    <div class="contactPage" id="contact">
       <div class="contact">
       <div class="contactText">
         <div class="workTogether">

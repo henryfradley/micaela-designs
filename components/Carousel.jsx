@@ -13,12 +13,18 @@ const Carousel = function(props) {
 
 
 
-
-
   const types = props.project.types;
   const typeList = types.map(type => {
     return <div class="type"><h5 key={types.indexOf(type)}>{type}</h5></div>
   })
+
+  const setClass = (num) => {
+    if (num === index) {
+      return 'selected';
+    }
+    return 'notSelected';
+  }
+
 
 
 
@@ -62,19 +68,19 @@ const Carousel = function(props) {
           <li class="changeImage">
           <Fade distance="5vh" delay={500} bottom>
             <ul onClick={() =>
-              setIndex(0)}>01<div></div></ul>
+              setIndex(0)} class={setClass(0)}>01<div></div></ul>
           </Fade>
           <Fade distance="5vh" delay={600} bottom>
             <ul onClick={() =>
-              setIndex(1)}>02<div></div></ul>
+              setIndex(1)} class={setClass(1)}>02<div></div></ul>
           </Fade>
           <Fade distance="5vh" delay={700} bottom>
             <ul onClick={() =>
-              setIndex(2)}>03<div></div></ul>
+              setIndex(2)} class={setClass(2)}>03<div></div></ul>
           </Fade>
           <Fade distance="5vh" delay={800} bottom>
             <ul onClick={() =>
-              setIndex(3)}>04<div></div></ul>
+              setIndex(3)} class={setClass(3)}>04<div></div></ul>
           </Fade>
           </li>
 

@@ -1,12 +1,18 @@
 import Fade from 'react-reveal/Fade';
 import Image from 'next/image'
 
+
 const myLoader = ({ src, width, quality }) => {
   return `https://d2k5lcv0ndozn2.cloudfront.net/${src}?w=${width}&q=${quality || 75}`
-}
+};
 
 
 const Skills = function() {
+
+
+
+
+
 
   return (
 
@@ -94,7 +100,7 @@ const Skills = function() {
             </div>
             </div>
           </Fade>
-          <Fade distance="5vh" delay={900} bottom>
+          <Fade distance="5vh" delay={800} bottom>
             <div>
             <div class="skillBox">
               <div class="icon">
@@ -112,7 +118,7 @@ const Skills = function() {
             </div>
           </Fade>
 
-          <Fade distance="5vh" delay={1100} bottom>
+          <Fade distance="5vh" delay={900} bottom>
             <div>
             <div class="skillBox">
               <div class="icon">
@@ -130,7 +136,7 @@ const Skills = function() {
             </div>
           </Fade>
 
-          <Fade distance="5vh" delay={1800} bottom>
+          <Fade distance="5vh" delay={1000} bottom>
             <div>
             <div class="skillBox">
               <div class="icon">

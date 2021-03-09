@@ -4,6 +4,7 @@ import Projects from '../components/Projects.jsx';
 import About from '../components/About.jsx';
 import Tools from '../components/Tools.jsx';
 import Contact from '../components/Contact.jsx';
+import Footer from '../components/Footer.jsx';
 
 import projectData from '../data/projectData.js';
 
@@ -23,6 +24,7 @@ const Home = () => {
       <About />
       <Tools />
       <Contact />
+      <Footer />
 
 
     </div>
