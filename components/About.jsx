@@ -10,7 +10,7 @@ const About = () => {
 
 
   return (
-    <div class="about">
+    <div class="about" id="about">
       <div class="profileImage">
         <Image
           loader={myLoader}
