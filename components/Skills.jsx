@@ -9,11 +9,6 @@ const myLoader = ({ src, width, quality }) => {
 
 const Skills = function() {
 
-
-
-
-
-
   return (
 
     <div class="skills" id="skills">
@@ -27,8 +22,8 @@ const Skills = function() {
                     loader={myLoader}
                     src="thumbsup.jpg"
                     alt="thumbs"
-                    width="300"
-                    height="300"
+                    width="750"
+                    height="750"
                   />
                 </Fade>
 
@@ -41,8 +36,8 @@ const Skills = function() {
                     loader={myLoader}
                     src="coffeecup.jpg"
                     alt="coffee"
-                    width="300"
-                    height="300"
+                    width="750"
+                    height="750"
                   />
                 </Fade>
                 </div>
@@ -54,8 +49,8 @@ const Skills = function() {
                     loader={myLoader}
                     src="wacom.jpg"
                     alt="wacom"
-                    width="300"
-                    height="300"
+                    width="750"
+                    height="750"
                   />
                 </Fade>
                 </div>
@@ -67,8 +62,8 @@ const Skills = function() {
                     loader={myLoader}
                     src="desk.jpg"
                     alt="desk"
-                    width="300"
-                    height="300"
+                    width="750"
+                    height="750"
                   />
                 </Fade>
                 </div>
