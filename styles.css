@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
 
 
 * { margin:0 0; padding:0 0; box-sizing:border-box; }
@@ -23,7 +26,7 @@ h5,
 li {
   color: var(--offWhite);
   font-family: 'Old Standard TT', serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .01rem;
 }
 
@@ -36,7 +39,6 @@ p {
 
 
 h1 {
-  font-weight: 400;
   font-style: italic;
   font-size: 3.7rem;
   width: fit-content;
@@ -62,12 +64,12 @@ h1 {
   width: 90%;
   justify-content: space-between;
   font-size: 1.1rem;
-  cursor: pointer;
 }
 
 .pageLink {
   color: var(--offWhite);
   transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
 .pageLink:hover {
@@ -222,7 +224,7 @@ h1 {
  .project {
    display: grid;
    grid-template-columns: 50% 50%;
-   padding-top: 20vh;
+   padding-top: 15vh;
    padding-bottom: 5vh;
  }
 
@@ -512,7 +514,7 @@ input {
   color: var(--offWhite);
   border: var(--line);
   width: 100%;
-  padding: 3vh 3vw;
+  padding: 3vh 1.5vw;
   font-size: 1.2rem;
   outline: none;
   margin-bottom: 1rem;
@@ -524,7 +526,7 @@ textarea {
   color: var(--offWhite);
   border: var(--line);
   width: 100%;
-  padding: 3vh 3vw;
+  padding: 3vh 1.5vw;
   font-size: 1.2rem;
   outline: none;
   margin-bottom: 1rem;
@@ -563,6 +565,7 @@ textarea {
   padding-left: 5vw;
   font-family: '';
   font-size: 1.1rem;
+  font-style: italic;
 }
 
 @media screen and (max-width: 1024px) {
