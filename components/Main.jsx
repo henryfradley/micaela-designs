@@ -35,7 +35,7 @@ const Main = function() {
       <div  class="mainText">
       <h1>HI. I'M MICAELA,</h1>
       <h3>A GRAPHIC DESIGNER BASED IN HONOLULU, HI.</h3>
-      <div class="getInTouch"><p>GET IN TOUCH</p></div>
+      <div class="getInTouch" onClick={scroll} name="contact">GET IN TOUCH</div>
       </div>
       <div class="illustration"></div>
 

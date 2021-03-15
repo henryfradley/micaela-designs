@@ -126,7 +126,20 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 10px 20px;
+  cursor: pointer;
+  transition: .5s ease;
+  color: var(--offWhite);
+  font-family: 'Rubik';
 }
+
+
+.getInTouch:hover {
+  background-color: var(--offWhite);
+  color: var(--mainColor);
+  transition: .5s ease;
+  border: 1px solid var(--offWhite);
+}
+
 
 
 
@@ -351,11 +364,13 @@ h1 {
 .favorites {
   border: 1px solid var(--secondaryColor);
   padding: 5% 10%;
+  color: var(--lightBlue);
+  font-family: 'Rubik';
 }
 
-.favorites p {
-  width: 80%;
-}
+
+
+
 
 .aboutText {
   padding: 20vh 5vw;
@@ -456,6 +471,10 @@ h1 {
   width: 80%;
   padding-bottom: 15%;
   padding-left: 15%;
+}
+
+.workTogether a {
+  text-decoration: none;
 }
 
 
