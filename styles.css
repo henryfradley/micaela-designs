@@ -82,6 +82,7 @@ h1 {
   background-color: var(--mainColor);
   /* overflow: hidden; */
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .mainPage {
