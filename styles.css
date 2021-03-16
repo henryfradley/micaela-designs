@@ -363,12 +363,6 @@ h1 {
   background-color: var(--mainColor)
 }
 
-.favorites {
-  border: 1px solid var(--secondaryColor);
-  padding: 5% 10%;
-  color: var(--lightBlue);
-  font-family: 'Rubik';
-}
 
 
 
@@ -391,18 +385,20 @@ h1 {
 }
 
 .favorites {
-  width: fit-content;
+  padding: 1% 1%;
+  width: 55%;
   min-width: 300px;
-  padding: 1vh 1vw;
-}
-
-.favorites p {
-  width: fit-content;
-  padding: .2rem 0;
+  border: 1px solid var(--secondaryColor);
   color: var(--lightBlue);
-
-
+  font-family: 'Rubik';
 }
+
+.favorites div {
+  width: 100%;
+  padding-left: 3%;
+}
+
+
 
 .profileImage {
   width: 100%;
@@ -631,12 +627,12 @@ textarea {
   min-height: 100px;
 }
 
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 768px) {
   .navbar ul {
     padding-left: 8%;
     padding-right: 8%;
   }
+
 
   .mainText {
     padding-top: 5vh;
@@ -667,6 +663,14 @@ textarea {
   .skillImageBlock {
     padding: 0px 0px;
   }
+
+
+
+  .icon {
+    height: 50%;
+    width: 40%;
+  }
+
 
   .goodAt {
     padding-top: 8vh;
@@ -739,7 +743,8 @@ textarea {
   .favorites {
     padding: .5vh 0;
     width: fit-content;
-    min-width: 25rem;
+    min-height: 5rem;
+    min-width: 20rem;
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
