@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -33,9 +34,16 @@ const Main = function() {
       </nav>
       <div class="mainPage">
       <div  class="mainText">
+      <Fade distance="5vh" delay={500} bottom>
       <h1>HI. I'M MICAELA,</h1>
+      </Fade>
+      <Fade distance="5vh" delay={700} bottom>
       <h3>A GRAPHIC DESIGNER BASED IN HONOLULU, HI.</h3>
+      </Fade>
+
+      <Fade distance="5vh" delay={900} bottom>
       <div class="getInTouch" onClick={scroll} name="contact">GET IN TOUCH</div>
+      </Fade>
       </div>
       <div class="illustration"></div>
 
