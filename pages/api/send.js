@@ -10,7 +10,7 @@ export default async function(req, res) {
     from: 'micaela.rob@gmail.com',
     subject: `${name} emailed you!! from ${email}`,
     text: `${name} - ${text}`,
-    html: `<h1>${name},</h1><p>${text}</p><p>${email}</p>`
+    html: `<p>${text}</p><p>${name}</p><p>${email}</p>`
   }
 
   try {

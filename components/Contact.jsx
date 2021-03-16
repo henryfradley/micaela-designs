@@ -22,17 +22,20 @@ const Contact = () => {
           <div><h1>WANT TO WORK TOGETHER? BECAUSE I DO!</h1></div>
         </Fade>
         <Fade distance="5vh" delay={700} bottom>
-          <a href="mailto:micaela.rob@gmail.com">micaela.rob@gmail.com</a>
+          <div>
+            <a href="mailto:micaela.rob@gmail.com">micaela.rob@gmail.com</a>
+          </div>
+
         </Fade>
           <div class="socials">
           <Fade distance="5vh" delay={900} bottom>
             <a target="_blank" href="https://www.instagram.com/micaelacreates/"><FaInstagram size="35px" color="#FDFBF5" /></a>
           </Fade>
-          <Fade distance="5vh" delay={1000} bottom>
+          <Fade distance="5vh" delay={1100} bottom>
             <a target="_blank" href="https://www.linkedin.com/in/micaela-robinson-duran-a6b92b1bb/"><FaLinkedin size="35px" color="#FDFBF5" /></a>
           </Fade>
 
-          <Fade distance="5vh" delay={1000} bottom>
+          <Fade distance="5vh" delay={1300} bottom>
             <a target="_blank" href="https://dribbble.com/micaela6/collections"><FiDribbble size="35px" color="#FDFBF5" /></a>
           </Fade>
         </div>
@@ -42,7 +45,7 @@ const Contact = () => {
       <div class="contactImage">
         <Image
           loader={myLoader}
-          src="000010.jpg"
+          src="molokai.png"
           layout="fill"
           objectFit="cover"
         />

@@ -564,6 +564,14 @@ textarea {
 .submitButton {
   width: fit-content;
   padding: 1.5vh 1.5vw;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.submitButton:hover {
+  color: var(--mainColor);
+  background-color: var(--offWhite);
+  transition: .5s ease-in-out;
 }
 
 .footer {
@@ -629,7 +637,6 @@ textarea {
   }
 
   .goodAt h1 {
-    width: 100%;
     text-align: center;
   }
 
@@ -661,10 +668,6 @@ textarea {
   }
 
   .description h3 {
-    position: absolute;
-    top: -51vh;
-    left: 0;
-    width: 100%;
     text-align: center;
     font-size: 1.8rem;
   }

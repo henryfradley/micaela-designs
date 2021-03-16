@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Fade from 'react-reveal/Fade';
 
 
 const Form = () => {
@@ -57,10 +58,18 @@ const Form = () => {
   return (
     <div class="formHolder">
       <form onSubmit={handleSubmit} class="contactForm">
+      <Fade distance="5vh" delay={500} bottom>
         <input required onChange={handleNameChange} value={message.name} name="name" type="text" placeholder="Your Name"></input>
+      </Fade>
+      <Fade distance="5vh" delay={700} bottom>
         <input required onChange={handleEmailChange} value={message.email} name="email" type="email" placeholder="Your Email"></input>
+      </Fade>
+      <Fade distance="5vh" delay={900} bottom>
         <textarea required onChange={handleTextChange} value={message.text} name="message" type="text" class="bigInput" placeholder="Let's chat! What can I do for you?"></textarea>
+      </Fade>
+      <Fade distance="5vh" delay={1100} bottom>
         <input class="submitButton" type="submit" value="LET'S DO THIS"></input>
+      </Fade>
       </form>
 
 

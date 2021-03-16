@@ -15,7 +15,7 @@ const About = () => {
       <div class="profileImage">
         <Image
           loader={myLoader}
-          src="headshot.jpg"
+          src="headshot-mic.jpg"
           layout="fill"
           objectFit="cover"
         />
