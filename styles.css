@@ -110,8 +110,9 @@ h1 {
   padding-left: 10vw;
   padding-bottom: 25vh;
   padding-top: 34vh;
-  /* z-index: 1; */
+  z-index: 1;
 }
+
 
 
 
