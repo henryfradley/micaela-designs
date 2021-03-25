@@ -70,6 +70,7 @@ h1 {
   color: var(--offWhite);
   transition: .3s ease-in-out;
   cursor: pointer;
+  font-style: italic;
 }
 
 .pageLink:hover {
