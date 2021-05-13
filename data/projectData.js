@@ -20,11 +20,11 @@ const projectData = [{
   types: ['PRINT', 'ILLUSTRATION']
 },
 {
-  name: 'PINK AND NAVY',
-  mainText: 'Pink and Navy is a boutique nestled close to the beach in Anna Maria Island, Florida. For the holidays they requested a seasonal shopping bag design. For the centerpiece I chose a quintessential landmark of the area; the city pier. I adorned this landmark with various holiday decor and lights.',
-  secondaryText: `Slides 3 and 4 are my favorite proposed concept for the Pink and Navy branding. I took 3 key parts about this boutique and abstracted them. The water and sand on the left and right signify the store's close relationship with the beach, while the cross stitch in the center shows their product.` ,
-  images: ['PN1.jpg', 'PN2.jpg', 'PN3.jpg', 'PN4.jpg'],
-  types: ['BRANDING', 'ILLUSTRATION']
+  name: 'ALOHA SHROOM CAFE',
+  mainText: 'Aloha Shroom Cafe is a tea and coffee brand that utilizes superfoods in their special blends. The goal of this project was to make packaging for them that stood out on the shelves, and highlighted the organic and natural properties of their ingredients. When designing I chose to keep the lines and shapes rough and organic, and made a pattern that showed layers of soil, and spots found on mushrooms.',
+  secondaryText: 'The branding is a simplistic typographic mark that uses a mushroom as the center of “Aloha”. For the color palette, I sampled the bright orange tones from cordyceps, one of their main ingredients.',
+  images: ['shroom1.jpg', 'shroom2.jpg', 'shroom3.jpg', 'shroom4.jpg'],
+  types: ['BRANDING', 'PACKAGING']
 },
 {
   name: 'SUSTAINABLE ILLUSTRATIONS',
