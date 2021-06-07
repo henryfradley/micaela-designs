@@ -19,8 +19,10 @@ const Contact = () => {
       <div class="contactText">
         <div class="workTogether">
         <Fade distance="5vh" delay={500} bottom>
-          <div><h1>WANT TO WORK TOGETHER? BECAUSE I DO!</h1></div>
+          <div><h1>I'M CURRENTLY LOOKING FOR NEW WORK OPPORTUNITIES.</h1></div>
+
         </Fade>
+        <Fade distance="5vh" delay={600} bottom><div><h2>Feel free to reach out if you think I'd be a good fit, or to just say hi!</h2></div></Fade>
         <Fade distance="5vh" delay={700} bottom>
           <div>
             <a href="mailto:micaela.rob@gmail.com">micaela.rob@gmail.com</a>

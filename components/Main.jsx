@@ -38,7 +38,7 @@ const Main = function() {
       <h1>HI. I'M MICAELA,</h1>
       </Fade>
       <Fade distance="5vh" delay={700} bottom>
-      <h3>A GRAPHIC DESIGNER BASED IN HONOLULU, HI.</h3>
+      <h3>A GRAPHIC DESIGNER BASED IN SAN FRANCISCO, CA.</h3>
       </Fade>
 
       <Fade distance="5vh" delay={900} bottom>
