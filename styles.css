@@ -76,6 +76,12 @@ h1 {
   padding-right: 1rem;
 }
 
+.navbar ul li {
+  margin-left: 4vw;
+}
+
+
+
 .pageLink {
   color: var(--offWhite);
   transition: .3s ease-in-out;
@@ -317,7 +323,6 @@ h1 {
   max-width: 100vw;
   width: 100%;
   flex-wrap: wrap;
-  gap: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -331,6 +336,8 @@ h1 {
    align-items: center;
    border: 1px solid rgb(61, 68, 74, .5);
    height: 32px;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
  }
 
  .type h5 {
