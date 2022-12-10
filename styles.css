@@ -738,7 +738,8 @@ textarea {
     display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 
   .description {
@@ -825,5 +826,13 @@ textarea {
 
   .getInTouch {
     margin: 0 auto;
+  }
+
+  .goodAt h1 {
+    max-width: 300px;
+  }
+
+  .contactText {
+    top: 10%;
   }
 }
