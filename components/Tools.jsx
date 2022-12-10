@@ -20,6 +20,7 @@ const Tools = () => {
             src="/Adobe.png"
             width="944"
             height="201"
+            priority={true}
           />
         </Fade>
         </div>
@@ -31,6 +32,7 @@ const Tools = () => {
             src="/Coffee.png"
             width="248"
             height="382"
+            priority={true}
           />
         </Fade>
         </div>
@@ -42,6 +44,7 @@ const Tools = () => {
             src="/Microsoft.png"
             width="892"
             height="279"
+            priority={true}
            />
         </Fade>
         </div>
