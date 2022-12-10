@@ -82,6 +82,7 @@ h1 {
   cursor: pointer;
   font-style: italic;
   z-index: 1;
+  height: fit-content;
 }
 
 .pageLink:hover {
@@ -508,7 +509,7 @@ h1 {
 }
 
 .contactText {
-  top: 0;
+  top: 10%;
   position: absolute;
   width: 100%;
   /* background-color: var(--mainColor);
@@ -646,8 +647,6 @@ textarea {
   display: flex;
   justify-content: space-between;
   padding: 3vh 1rem;
-
-
 }
 
 .footer ul {
@@ -656,12 +655,10 @@ textarea {
   display: flex;
   padding-top: 3vh;
   gap: 1rem;
-  padding: 3vh 1rem;
+
 }
 .footer h4 {
   padding-top: 3vh;
-  padding-bottom: 3vh;
-  font-family: '';
   font-size: 1.1rem;
   font-style: italic;
 }
@@ -791,6 +788,7 @@ textarea {
     display: none;
   }
 
+
   .contactText {
     top: 10%;
   }
@@ -799,6 +797,13 @@ textarea {
     min-height: 90vh;
   }
 
+  .contactText {
+    top: 30%;
+  }
+
+  .footer ul {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 580px) {
