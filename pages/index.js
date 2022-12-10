@@ -27,7 +27,11 @@ const Home = () => {
           href="./Favicon32x32.png"
           sizes="32x32"
         ></link>
+
+        <link rel="preload" href="./illustration.png" as="image" />
+        <link rel="preload" href="./bg.png" as="image" />
       </Head>
+
       <div className="wrapper">
         <Main />
         <Skills />
