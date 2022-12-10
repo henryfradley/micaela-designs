@@ -65,6 +65,7 @@ h1 {
 
 .navbar ul {
   margin-left: auto;
+  margin-right: 2rem;
   padding-top: 3vh;
   padding-bottom: 3vh;
   list-style: none;
@@ -73,7 +74,6 @@ h1 {
   max-width: 100%;
   gap: 4vw;
   font-size: 1.1rem;
-  padding-right: 1rem;
 }
 
 .navbar ul li {
@@ -658,6 +658,7 @@ textarea {
   justify-content: space-between;
   padding: 3vh 1rem;
   padding-bottom: 0;
+  padding-right: 2rem;
 }
 
 .footer ul {
@@ -666,7 +667,6 @@ textarea {
   display: flex;
   padding-top: 3vh;
   gap: 1rem;
-  margin-right: 1rem;
 }
 .footer ul li {
   margin-right: 1rem;
@@ -714,7 +714,9 @@ textarea {
 
   .navbar ul {
     justify-content: center;
-    margin: 0 1rem;
+    margin: 0 auto;
+    max-width: 100vw;
+    font-size: 1rem;
   }
 
   .illustration {
@@ -819,6 +821,8 @@ textarea {
 
   .footer ul {
     margin: 0 auto;
+    font: 1rem;
+    margin-bottom: 2rem;
   }
 }
 
