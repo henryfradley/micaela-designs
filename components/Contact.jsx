@@ -56,6 +56,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <Footer />
         <div class="contactImage">
           <Image
             loader={myLoader}
@@ -65,7 +66,7 @@ const Contact = () => {
             priority={true}
           />
         </div>
-        <Footer />
+
       </div>
     </div>
   );
