@@ -33,6 +33,7 @@ const About = () => {
             the spring of 2019.
           </p>
         </Fade>
+
         <Fade distance="5vh" delay={650} bottom>
           <p>
             Since then, I have held multiple roles in the industry, my most
