@@ -22,6 +22,7 @@ const Skills = function () {
                 alt="thumbs"
                 width="750"
                 height="750"
+                priority={true}
               />
             </Fade>
           </div>
@@ -34,6 +35,7 @@ const Skills = function () {
                 alt="coffee"
                 width="750"
                 height="750"
+                priority={true}
               />
             </Fade>
           </div>
@@ -46,6 +48,7 @@ const Skills = function () {
                 alt="wacom"
                 width="750"
                 height="750"
+                priority={true}
               />
             </Fade>
           </div>
@@ -58,6 +61,7 @@ const Skills = function () {
                 alt="desk"
                 width="750"
                 height="750"
+                priority={true}
               />
             </Fade>
           </div>

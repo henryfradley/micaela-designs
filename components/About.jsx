@@ -16,6 +16,7 @@ const About = () => {
           src="headshot-mic.jpg"
           layout="fill"
           objectFit="cover"
+          priority={true}
         />
       </div>
       <div class="aboutText">
@@ -34,24 +35,27 @@ const About = () => {
         </Fade>
         <Fade distance="5vh" delay={650} bottom>
           <p>
-            Since then, I have been on the move expanding my portfolio,
-            acquiring freelance projects, and working for the digital media
-            agency, Ellemsee Media, in Downtown Honolulu.
+            Since then, I have held multiple roles in the industry, my most
+            recent being a graphic designer at the real estate technology
+            company Doma.
           </p>
         </Fade>
         <Fade distance="5vh" delay={700} bottom>
           <p>
-            Have a project in mind you want to discuss? Let’s do it! Send me a
-            message below to get started.
+            I’m currently looking for my next exciting role! Download my resume
+            below to learn more about me.
           </p>
         </Fade>
 
         <Fade distance="5vh" delay={1100} bottom>
-          <div class="favorites">
-            <div>FAVORITE SNACK: KETTLE CORN</div>
-            <div>FAVORITE BOOK: READY PLAYER ONE</div>
-            <div>FAVORITE PASTIME: LEARNING PIANO</div>
-          </div>
+          <a
+            class="resume"
+            target="_blank"
+            href="https://drive.google.com/file/d/1AeyJ24IC1x71IG5unCObBgcx9LjYc4Nz/view?usp=sharing
+"
+          >
+            MY RESUME
+          </a>
         </Fade>
       </div>
     </div>
