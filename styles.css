@@ -292,6 +292,7 @@ h1 {
  }
 
  .description {
+  padding-top: 1.5rem;
    width: 70%;
  }
 
@@ -829,7 +830,7 @@ textarea {
   }
 
   .goodAt h1 {
-    max-width: 300px;
+    max-width: 80vw;
   }
 
   .contactText {
