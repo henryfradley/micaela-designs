@@ -45,28 +45,35 @@ h1 {
   letter-spacing: .1rem;
 }
 
-/* .wrapper {
-} */
+.wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-width: 340px;
+}
 
 
 
 .navbar {
   display: flex;
   justify-content: center;
+  width: 100%;
+  border-bottom: var(--line);
 }
 
 
 .navbar ul {
-  border-bottom: var(--line);
+  margin-left: auto;
   padding-top: 3vh;
   padding-bottom: 3vh;
-  padding-left: 40%;
-  padding-right: 3%;
   list-style: none;
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: flex-end;
+  max-width: 100%;
+  gap: 4vw;
   font-size: 1.1rem;
+  padding-right: 1rem;
 }
 
 .pageLink {
@@ -74,6 +81,7 @@ h1 {
   transition: .3s ease-in-out;
   cursor: pointer;
   font-style: italic;
+  z-index: 1;
 }
 
 .pageLink:hover {
@@ -87,7 +95,6 @@ h1 {
   background-image: url('./public/bg.png');
   /* overflow: hidden; */
   overflow: hidden;
-  height: 100vh;
 }
 
 .mainPage {
@@ -95,6 +102,7 @@ h1 {
   grid-template-columns: 45% 55%; */
   position: relative;
   padding-bottom: 10vh;
+  min-height: 600px;
 }
 
 .illustration {
@@ -118,6 +126,8 @@ h1 {
   padding-bottom: 25vh;
   padding-top: 34vh;
   z-index: 1;
+  height: 100%;
+  max-width: 100%;
 }
 
 
@@ -222,6 +232,7 @@ h1 {
 
  .boxes {
    width: 80%;
+   max-width: 360px;
  }
 
  .skillBox {
@@ -300,9 +311,14 @@ h1 {
 
 .types {
   display: flex;
-  height: 3rem;
   margin-top: 8vh;
+  max-width: 100vw;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
 }
+
 
  .type {
    /* border: var(--line); */
@@ -311,8 +327,8 @@ h1 {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-right: 1rem;
    border: 1px solid rgb(61, 68, 74, .5);
+   height: 32px;
  }
 
  .type h5 {
@@ -418,7 +434,7 @@ h1 {
 
 .aboutText p {
   width: 75%;
-  padding-bottom: 3vh;
+  padding-bottom: 1rem;
   font-size: 1.1rem;
 }
 
@@ -480,7 +496,7 @@ h1 {
 }
 
 .contactPage {
-  margin-top: 0;
+  margin-top: auto;
   display: flex;
   flex-direction: column;
 }
@@ -492,10 +508,9 @@ h1 {
 }
 
 .contactText {
+  top: 0;
   position: absolute;
   width: 100%;
-  height: 100vh;
-  min-height: 500px;
   /* background-color: var(--mainColor);
   opacity: .5; */
   z-index: 1;
@@ -625,15 +640,14 @@ textarea {
   width: 100%;
   height: 75px;
   bottom: 0;
-  left: 0;
   right: 0;
-  z-index: 1000;
   display: grid;
-  grid-template-columns: 25% 75%;
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 3vh 1rem;
+
+
 }
 
 .footer ul {
@@ -641,9 +655,9 @@ textarea {
   border: none;
   display: flex;
   padding-top: 3vh;
-  gap: 50px;
+  gap: 1rem;
+  padding: 3vh 1rem;
 }
-
 .footer h4 {
   padding-top: 3vh;
   padding-bottom: 3vh;
@@ -685,194 +699,126 @@ textarea {
   min-height: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+
   .navbar ul {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
-
-
-  .mainText {
-    padding-top: 5vh;
-    padding-bottom: 50vh;
+    justify-content: center;
+    margin: 0 1rem;
   }
 
   .illustration {
-    height: 55vh;
-    width: 100vw;
-    left: 0;
+    padding-top: 200px;
+    width: 80%;
+    min-height: 300px;
   }
 
+  .mainText {
+    padding-left: 2rem;
+    padding-top: 50px;
+  }
   .skills {
-    grid-template-columns: 100%;
-  }
-
-  .skillsLeft {
-    padding: 0vh 0vw;
+    grid-template-columns: 1fr;
   }
 
   .skillImages {
-    width: 100vw;
-    height: 100vw;
-    column-gap: 0rem;
-    row-gap: 0rem;
+    min-height: 300px;
+    min-width: 300px;
   }
 
-  .skillImageBlock {
-    padding: 0px 0px;
+  .skillBox {
+    max-width: 100%;
   }
-
-
-
-  .icon {
-    height: 50%;
-    width: 40%;
-  }
-
 
   .goodAt {
-    padding-top: 8vh;
-  }
-
-  .goodAt h1 {
-    text-align: center;
-  }
-
-  .boxes {
-    margin-left: 10%;
-  }
-
-  .projects {
-    padding-top: 12vh;
-  }
-
-  .projects h1 {
-    padding-bottom: 10vh;
-  }
-
-  .project {
-    padding-top: 5vh;
-    padding-bottom: 10vh;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .description {
-    padding-top: 5vh;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
-  }
-
-  .description h3 {
-    text-align: center;
-    font-size: 1.8rem;
-  }
-
-  .types {
-    margin: 0 0;
-  }
-
-  .about {
-    grid-template-columns: 100%;
-  }
-
-  .aboutText {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    text-align: center;
+  }
+  .project {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding-top: 2rem;
   }
 
-  .aboutText h1 {
+  .description {
     width: 100%;
+  }
+
+  .types {
+    margin-top: 2rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutText {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
   }
 
   .aboutText p {
+    padding: 1rem;
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    text-align: center;
   }
 
-  .favorites {
-    padding: .5vh 0;
-    width: fit-content;
-    min-height: 5rem;
-    min-width: 20rem;
-    margin-top: 5vh;
-    margin-left: auto;
-    margin-right: auto;
+  .aboutText h1 {
+   margin: 0 auto;
   }
 
-  .profileImage {
-    width: 100vw;
-    height: 80vh;
-  }
-
-  .contactPage {
-    grid-template-columns: 100%;
-  }
-
-  .formHolder {
-    padding: 10% 12.5%;
-    height: 70vh;
-  }
-
-
-
-
-
-
-
-}
-
-
-@media screen and (max-width: 414px) {
-
-  .favorites {
-    min-width: 18rem;
-    padding: 1% 0;
-  }
-
-  .favorites p {
-    font-size: .7rem;
-
-  }
-
-  .navbar ul {
-
-    width: 98%;
-
+  .workTogether {
+    width: unset;
+    max-width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .workTogether h1 {
-    font-size: 2.1rem;
-    text-align: center;
-  }
-  .workTogether {
-    text-align: center;
+    font-size: 2rem;
   }
 
-  .socials {
-    justify-content: center;
-    width: fit-content;
-    margin: 0 auto;
+  .footer h4 {
+    display: none;
   }
 
-  .socials a {
-    margin: .4rem;
+  .contactText {
+    top: 10%;
   }
 
-
+  .profileImage {
+    min-height: 90vh;
+  }
 
 }
 
+@media screen and (max-width: 580px) {
 
+  .illustration {
+    width: 100%;
+    max-height: 300px;
+  }
 
+  .mainText {
+    text-align: center;
+    max-width: 100%;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-
-
+  .getInTouch {
+    margin: 0 auto;
+  }
+}

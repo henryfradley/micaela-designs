@@ -28,11 +28,13 @@ const Home = () => {
           sizes="32x32"
         ></link>
       </Head>
-      <Main />
-      <Skills />
-      <Projects data={projectData} />
-      <About />
-      <Contact />
+      <div className="wrapper">
+        <Main />
+        <Skills />
+        <Projects data={projectData} />
+        <About />
+        <Contact />
+      </div>
     </div>
   );
 };

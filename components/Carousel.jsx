@@ -40,11 +40,9 @@ const Carousel = function (props) {
         <Fade distance="5vh" delay={600} bottom>
           <p>{props.project.secondaryText}</p>
         </Fade>
-        <div>
           <Fade distance="5vh" delay={600} bottom>
             <div class="types">{typeList}</div>
           </Fade>
-        </div>
       </div>
       <div>
         <div class="projectImage">
