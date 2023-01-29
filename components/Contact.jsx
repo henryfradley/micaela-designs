@@ -48,7 +48,7 @@ const Contact = () => {
               <Fade distance="5vh" delay={1300} bottom>
                 <a
                   target="_blank"
-                  href="https://dribbble.com/micaela6/collections"
+                  href="https://dribbble.com/micaela6/shots"
                 >
                   <FiDribbble size="35px" color="#FDFBF5" />
                 </a>
