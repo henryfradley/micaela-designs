@@ -99,7 +99,7 @@ h1 {
 
 .main {
   background-color: var(--mainColor);
-  background-image: url('./public/bg.png');
+  background-image: url('/bg.png');
   /* overflow: hidden; */
   overflow: hidden;
 }
