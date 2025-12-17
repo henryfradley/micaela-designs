@@ -36,9 +36,19 @@ const projectData = [
     mainText:
       "Aloha Shroom Cafe is a tea and coffee brand that utilizes superfoods in their special blends. The goal of this project was to make packaging for them that stood out on the shelves, and highlighted the organic and natural properties of their ingredients. When designing I chose to keep the lines and shapes rough and organic, and made a pattern that showed layers of soil, and spots found on mushrooms.",
     secondaryText:
-      "The branding is a simplistic typographic mark that uses a mushroom as the center of “Aloha”. For the color palette, I sampled the bright orange tones from cordyceps, one of their main ingredients.",
+      "The branding is a simplistic typographic mark that uses a mushroom as the center of "Aloha". For the color palette, I sampled the bright orange tones from cordyceps, one of their main ingredients.",
     images: ["shroom1.jpg", "shroom2.jpg", "shroom3.jpg", "shroom4.jpg"],
     types: ["BRANDING", "PACKAGING"],
+  },
+  {
+    name: "NATERA",
+    mainText:
+      "Placeholder text for Natera project. This section will showcase the design work and creative solutions developed for Natera.",
+    secondaryText:
+      "Additional details about the Natera project will go here.",
+    images: ["/natera1.jpg", "/natera2.jpg", "/natera3.jpg", "/natera4.jpg"],
+    types: ["DESIGN", "BRANDING"],
+    useLocalImages: true,
   },
 ];
 module.exports = {
