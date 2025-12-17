@@ -13,8 +13,8 @@ const Skills = function () {
   return (
     <div class="skills" id="skills">
       <div class="skillsLeft">
-        <div class="skillImages">
-          <Fade distance="5vh" delay={500} bottom>
+        <Fade distance="5vh" delay={500} bottom>
+          <div class="skillImages">
             <div class="skillImageBlock">
               <Image
                 loader={myLoader}
@@ -25,9 +25,7 @@ const Skills = function () {
                 priority={true}
               />
             </div>
-          </Fade>
 
-          <Fade distance="5vh" delay={600} bottom>
             <div class="skillImageBlock">
               <Image
                 loader={myLoader}
@@ -38,9 +36,7 @@ const Skills = function () {
                 priority={true}
               />
             </div>
-          </Fade>
 
-          <Fade distance="5vh" delay={700} bottom>
             <div class="skillImageBlock">
               <Image
                 loader={myLoader}
@@ -51,9 +47,7 @@ const Skills = function () {
                 priority={true}
               />
             </div>
-          </Fade>
 
-          <Fade distance="5vh" delay={800} bottom>
             <div class="skillImageBlock">
               <Image
                 loader={myLoader}
@@ -64,8 +58,8 @@ const Skills = function () {
                 priority={true}
               />
             </div>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
       </div>
 
       <div class="goodAt">
