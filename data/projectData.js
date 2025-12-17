@@ -2,9 +2,9 @@ const projectData = [
   {
     name: "NATERA",
     mainText:
-      "I'm currently in charge of design for the Women's Health business unit at Natera, where I get to work on products that help empower women with important health insights. My role involves everything from creative direction to designing user experiences for genetic testing services, event booths, and marketing materials.",
+      "I currently lead design for Natera's Women's Health division, working on products that help empower women with critical health insights. From designing event experiences and marketing materials to crafting user interfaces for genetic testing platforms, I oversee the creative vision across all touchpoints.",
     secondaryText:
-      "The work focuses on making complex genetic information feel accessible and meaningful—both for patients navigating their health journeys and the healthcare providers supporting them.",
+      "My focus is on translating complex genetic information into accessible, meaningful experiences—whether for patients navigating their health journey or the healthcare providers guiding them.",
     images: ["/natera1.jpg", "/natera2.jpg", "/natera3.jpg", "/natera4.jpg"],
     types: ["PRODUCT DESIGN", "HEALTHCARE"],
     useLocalImages: true,
