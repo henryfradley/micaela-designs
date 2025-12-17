@@ -61,8 +61,8 @@ const Contact = () => {
           <Image
             loader={myLoader}
             src="molokai.png"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             priority={true}
           />
         </div>

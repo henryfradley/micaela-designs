@@ -14,8 +14,8 @@ const About = () => {
         <Image
           loader={myLoader}
           src="headshot-mic.jpg"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
           priority={true}
         />
       </div>

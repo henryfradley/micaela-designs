@@ -11,6 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 const Carousel = function (props) {
   const [index, setIndex] = useState(0);
   const images = props.project.images;
+  const useLocalImages = props.project.useLocalImages || false;
 
   const types = props.project.types;
   const typeList = types.map((type) => {
@@ -49,10 +50,11 @@ const Carousel = function (props) {
           <Fade distance="5vh" delay={500} bottom>
             <Image
               key={images[index]}
-              loader={myLoader}
+              loader={useLocalImages ? undefined : myLoader}
               src={images[index]}
               width="906"
               height="600"
+              style={{ maxWidth: '100%', height: 'auto' }}
               priority={true}
             />
           </Fade>

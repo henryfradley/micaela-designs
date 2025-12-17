@@ -14,57 +14,57 @@ const Skills = function () {
     <div class="skills" id="skills">
       <div class="skillsLeft">
         <div class="skillImages">
-          <div class="skillImageBlock">
-            <Fade distance="5vh" delay={500} bottom>
+          <Fade distance="5vh" delay={500} bottom>
+            <div class="skillImageBlock">
               <Image
                 loader={myLoader}
                 src="thumbsup.jpg"
                 alt="thumbs"
-                width="750"
-                height="750"
+                fill
+                style={{ objectFit: 'cover' }}
                 priority={true}
               />
-            </Fade>
-          </div>
+            </div>
+          </Fade>
 
-          <div class="skillImageBlock">
-            <Fade distance="5vh" delay={600} bottom>
+          <Fade distance="5vh" delay={600} bottom>
+            <div class="skillImageBlock">
               <Image
                 loader={myLoader}
                 src="coffeecup.jpg"
                 alt="coffee"
-                width="750"
-                height="750"
+                fill
+                style={{ objectFit: 'cover' }}
                 priority={true}
               />
-            </Fade>
-          </div>
+            </div>
+          </Fade>
 
-          <div class="skillImageBlock">
-            <Fade distance="5vh" delay={700} bottom>
+          <Fade distance="5vh" delay={700} bottom>
+            <div class="skillImageBlock">
               <Image
                 loader={myLoader}
                 src="wacom.jpg"
                 alt="wacom"
-                width="750"
-                height="750"
+                fill
+                style={{ objectFit: 'cover' }}
                 priority={true}
               />
-            </Fade>
-          </div>
+            </div>
+          </Fade>
 
-          <div class="skillImageBlock">
-            <Fade distance="5vh" delay={800} bottom>
+          <Fade distance="5vh" delay={800} bottom>
+            <div class="skillImageBlock">
               <Image
                 loader={myLoader}
                 src="desk.jpg"
                 alt="desk"
-                width="750"
-                height="750"
+                fill
+                style={{ objectFit: 'cover' }}
                 priority={true}
               />
-            </Fade>
-          </div>
+            </div>
+          </Fade>
         </div>
       </div>
 
