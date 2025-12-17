@@ -2,17 +2,17 @@ const projectData = [
   {
     name: "NATERA",
     mainText:
-      "I'm currently leading design for Natera's Women's Health division. My team handles all the creative needs for our products and services, from event booth designs and marketing collateral to user experience design for our genetic testing platforms.",
+      "I am currently the Women’s Health Creative Lead at Natera, a genetic testing company focused on improving patient care through advanced diagnostics. In this role, I lead creative strategy and execution for the Women’s Health business unit, ensuring a cohesive look and feel across all digital and print touchpoints. My responsibilities include high-level art direction for new campaigns, designing event booths and experiences, and developing essential marketing materials that support the sales team’s client outreach.",
     secondaryText:
-      "The goal is always to make complex genetic information feel clear and approachable for both patients and their healthcare providers.",
-    images: ["/natera1.jpg", "/natera2.jpg", "/natera3.jpg", "/natera4.jpg"],
+      "Here is a selection of projects I have led at Natera.",
+    images: ["/Natera_1.jpeg", "/Natera_2.jpeg", "/Natera_3.jpeg", "/Natera_4.jpeg"],
     types: ["PRODUCT DESIGN", "HEALTHCARE"],
     useLocalImages: true,
   },
   {
     name: "DOMA",
-    mainText: "My most recent position was at the real estate technology company Doma. Our 8 person creative team handled all the design needs for the entire company. This included sales collateral, event booth design, social media posts, infographics, internal decks, and many other types of projects.",
-    secondaryText: "Here's a sample of some of the projects I designed while I was there.",
+    mainText: "I worked as an in-house graphic designer at the real estate technology company Doma, whose mission is to modernize the title and escrow process through technology that makes real estate transactions faster, simpler, and more affordable. Our eight-person creative team supported all design needs across the organization, including sales collateral, event booth design, social media content, infographics, internal presentations, and a wide range of other projects.",
+    secondaryText: "Here is a selection of projects I created during my time there.",
     images: ["Doma1.jpg", "Doma2.jpg", "Doma3.jpg", "Doma4.jpg"],
     types: ["BRAND DESIGN", "SOCIAL MEDIA", "ILLUSTRATION"],
   },

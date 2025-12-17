@@ -25,26 +25,18 @@ const About = () => {
         </Fade>
         <Fade distance="5vh" delay={600} bottom>
           <p>
-            Hi, thanks for stopping by! My name is Micaela and I’m a graphic
-            designer from Mill Valley, CA. Having grown up near a big
-            metropolitan city, I was constantly surrounded by art from a variety
-            of cultures. My love for art inspired my profession as a graphic
-            designer. I graduated from UH Manoa with a BFA in Graphic Design in
-            the spring of 2019.
+          Hello, and thank you for visiting. My name is Micaela, and I am a graphic designer based in Mill Valley, California. Growing up near a major metropolitan area, I was immersed in art and visual influences from a wide range of cultures, which helped shape my passion for design. I earned a Bachelor of Fine Arts in Graphic Design from the University of Hawaiʻi at Mānoa in spring 2019.
           </p>
         </Fade>
 
         <Fade distance="5vh" delay={650} bottom>
           <p>
-            Since then, I have held multiple roles in the industry, my most
-            recent being a graphic designer at the real estate technology
-            company Doma.
+          Since then, I have held multiple roles within the industry, my current role as the Women’s Health creative lead at the genetic testing company, Natera. 
           </p>
         </Fade>
         <Fade distance="5vh" delay={700} bottom>
           <p>
-            I’m currently looking for my next exciting role! Download my resume
-            below to learn more about me.
+          I am currently seeking my next professional opportunity. Please download my resume below to learn more about my experience and background.
           </p>
         </Fade>
 
