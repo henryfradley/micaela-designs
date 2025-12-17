@@ -47,17 +47,15 @@ const Carousel = function (props) {
       </div>
       <div>
         <div class="projectImage">
-          <Fade distance="5vh" delay={500} bottom>
-            <Image
-              key={images[index]}
-              loader={useLocalImages ? undefined : myLoader}
-              src={images[index]}
-              width="906"
-              height="600"
-              style={{ maxWidth: '100%', height: 'auto' }}
-              priority={true}
-            />
-          </Fade>
+          <Image
+            key={images[index]}
+            loader={useLocalImages ? undefined : myLoader}
+            src={images[index]}
+            width="906"
+            height="600"
+            style={{ maxWidth: '100%', height: 'auto' }}
+            priority={true}
+          />
         </div>
 
         <li class="changeImage">
