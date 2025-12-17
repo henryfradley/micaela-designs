@@ -1,8 +1,18 @@
 const projectData = [
   {
+    name: "NATERA",
+    mainText:
+      "Micaela is currently leading women's health design at Natera, a global leader in cell-free DNA testing and genetic diagnostics. In this role, she oversees the creative direction for products and services that empower women with critical health insights.",
+    secondaryText:
+      "Her work focuses on creating compassionate, user-centered design experiences that make complex genetic information accessible and meaningful for patients and healthcare providers.",
+    images: ["/natera1.jpg", "/natera2.jpg", "/natera3.jpg", "/natera4.jpg"],
+    types: ["PRODUCT DESIGN", "HEALTHCARE"],
+    useLocalImages: true,
+  },
+  {
     name: "DOMA",
     mainText: "My most recent position was at the real estate technology company Doma. Our 8 person creative team handled all the design needs for the entire company. This included sales collateral, event booth design, social media posts, infographics, internal decks, and many other types of projects.",
-    secondaryText: "Here’s a sample of some of the projects I designed while I was there.",
+    secondaryText: "Here's a sample of some of the projects I designed while I was there.",
     images: ["Doma1.jpg", "Doma2.jpg", "Doma3.jpg", "Doma4.jpg"],
     types: ["BRAND DESIGN", "SOCIAL MEDIA", "ILLUSTRATION"],
   },
@@ -39,16 +49,6 @@ const projectData = [
       "The branding is a simplistic typographic mark that uses a mushroom as the center of \"Aloha\". For the color palette, I sampled the bright orange tones from cordyceps, one of their main ingredients.",
     images: ["shroom1.jpg", "shroom2.jpg", "shroom3.jpg", "shroom4.jpg"],
     types: ["BRANDING", "PACKAGING"],
-  },
-  {
-    name: "NATERA",
-    mainText:
-      "Placeholder text for Natera project. This section will showcase the design work and creative solutions developed for Natera.",
-    secondaryText:
-      "Additional details about the Natera project will go here.",
-    images: ["/natera1.jpg", "/natera2.jpg", "/natera3.jpg", "/natera4.jpg"],
-    types: ["DESIGN", "BRANDING"],
-    useLocalImages: true,
   },
 ];
 module.exports = {
