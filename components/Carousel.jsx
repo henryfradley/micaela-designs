@@ -53,6 +53,7 @@ const Carousel = function (props) {
               src={images[index]}
               width="906"
               height="600"
+              style={{ maxWidth: '100%', height: 'auto' }}
               priority={true}
             />
           </Fade>
