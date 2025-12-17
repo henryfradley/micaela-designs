@@ -2,9 +2,9 @@ const projectData = [
   {
     name: "NATERA",
     mainText:
-      "Micaela is currently leading women's health design at Natera, a global leader in cell-free DNA testing and genetic diagnostics. In this role, she oversees the creative direction for products and services that empower women with critical health insights.",
+      "I'm currently leading women's health design at Natera, where I get to work on products that help empower women with important health insights. My role involves everything from creative direction to designing user experiences for genetic testing services.",
     secondaryText:
-      "Her work focuses on creating compassionate, user-centered design experiences that make complex genetic information accessible and meaningful for patients and healthcare providers.",
+      "The work focuses on making complex genetic information feel accessible and meaningful—both for patients navigating their health journeys and the healthcare providers supporting them.",
     images: ["/natera1.jpg", "/natera2.jpg", "/natera3.jpg", "/natera4.jpg"],
     types: ["PRODUCT DESIGN", "HEALTHCARE"],
     useLocalImages: true,
