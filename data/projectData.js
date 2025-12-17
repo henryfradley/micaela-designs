@@ -20,7 +20,7 @@ const projectData = [
     name: "ILLUSTRATION PROJECTS",
     mainText: "When it comes to illustration, there is so much room for creativity and space to explore different styles. I have always loved this medium and have strived to incorporate it into my projects as much as possible.",
     secondaryText: "Here are a few illustrations I’ve done which include invitations, social media posts, and book covers.",
-    images: ["Illustration_1.jpg", "Illustration_2.jpg", "Illustration_3.jpg", "Illustration_4.jpg"],
+    images: ["Illustration_2.jpg", "Illustration_1.jpg", "Illustration_3.jpg", "Illustration_4.jpg"],
     types: ["ILLUSTRATION", "PRINT"],
   },
   {
