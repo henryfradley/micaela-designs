@@ -5,7 +5,7 @@ const projectData = [
       "I am currently the Women’s Health Creative Lead at Natera, a genetic testing company focused on improving patient care through advanced diagnostics. In this role, I lead creative strategy and execution for the Women’s Health business unit, ensuring a cohesive look and feel across all digital and print touchpoints. My responsibilities include high-level art direction for new campaigns, designing event booths and experiences, and developing essential marketing materials that support the sales team’s client outreach.",
     secondaryText:
       "Here is a selection of projects I have led at Natera.",
-    images: ["Natera_1.JPG", "Natera_2.JPG", "Natera_3.JPG", "Natera_4.JPG"],
+    images: ["Natera_1.jpg", "Natera_2.jpg", "Natera_3.jpg", "Natera_4.jpg"],
     types: ["PRODUCT DESIGN", "HEALTHCARE"],
   },
   {
