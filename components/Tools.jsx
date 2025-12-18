@@ -7,7 +7,7 @@ const Tools = () => {
   return (
     <div>
 
-      <div className="myTools">
+      <div class="myTools">
       <motion.h1
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -18,8 +18,8 @@ const Tools = () => {
       </motion.h1>
       </div>
 
-      <div className="toolImages">
-        <div className="adobe">
+      <div class="toolImages">
+        <div class="adobe">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ const Tools = () => {
         </div>
 
 
-        <div className="coffee">
+        <div class="coffee">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ const Tools = () => {
         </div>
 
 
-        <div className="office">
+        <div class="office">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

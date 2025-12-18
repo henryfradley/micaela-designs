@@ -16,9 +16,9 @@ export const Icon = ({ variant }) => {
           points="211.51 255.2 211.51 275.12 33.49 275.12 33.49 24.88 211.51 24.88 211.51 82.39"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="211.51"
@@ -27,9 +27,9 @@ export const Icon = ({ variant }) => {
           y2="155.13"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <rect
           x="172.36"
@@ -38,9 +38,9 @@ export const Icon = ({ variant }) => {
           height="43.38"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <rect
           x="120.64"
@@ -49,9 +49,9 @@ export const Icon = ({ variant }) => {
           height="83.94"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="63.78"
@@ -59,9 +59,9 @@ export const Icon = ({ variant }) => {
           r="16.78"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="151.86"
@@ -69,9 +69,9 @@ export const Icon = ({ variant }) => {
           r="16.78"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="192.54"
@@ -79,9 +79,9 @@ export const Icon = ({ variant }) => {
           r="8.79"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <g>
           <line
@@ -91,9 +91,9 @@ export const Icon = ({ variant }) => {
             y2="51.25"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
           <line
             x1="95.01"
@@ -102,9 +102,9 @@ export const Icon = ({ variant }) => {
             y2="62.25"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
         </g>
         <g>
@@ -115,9 +115,9 @@ export const Icon = ({ variant }) => {
             y2="107.87"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
           <line
             x1="213.84"
@@ -126,9 +126,9 @@ export const Icon = ({ variant }) => {
             y2="118.87"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
         </g>
         <g>
@@ -139,9 +139,9 @@ export const Icon = ({ variant }) => {
             y2="200.58"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
           <line
             x1="236.67"
@@ -150,9 +150,9 @@ export const Icon = ({ variant }) => {
             y2="211.58"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
         </g>
       </svg>
@@ -172,9 +172,9 @@ export const Icon = ({ variant }) => {
           points="247.01 72.67 296.58 119.34 254.03 196.58 143.75 223.84 178.45 102.82 247.01 72.67"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="229.46"
@@ -182,17 +182,17 @@ export const Icon = ({ variant }) => {
           r="14.25"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <path
           d="M38.42,49.14s97.43,.83,35.51,90.83c-61.6,89.53-37.42,136.57,50.61,96.43,.99-.45,1.94-.97,2.86-1.54,2.6-1.62,8.52-5.39,16.36-11l76.4-75.6"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
       </svg>
     );
@@ -214,9 +214,9 @@ export const Icon = ({ variant }) => {
           height="198.81"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <rect
           x="82.42"
@@ -225,9 +225,9 @@ export const Icon = ({ variant }) => {
           height="66.92"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <g>
           <line
@@ -237,9 +237,9 @@ export const Icon = ({ variant }) => {
             y2="188.35"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
           <line
             x1="104.9"
@@ -248,9 +248,9 @@ export const Icon = ({ variant }) => {
             y2="209.35"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
           <line
             x1="149.58"
@@ -259,9 +259,9 @@ export const Icon = ({ variant }) => {
             y2="227.22"
             fill="none"
             stroke="#fdfbf5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
           />
         </g>
         <line
@@ -271,9 +271,9 @@ export const Icon = ({ variant }) => {
           y2="75.33"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="202.88"
@@ -281,9 +281,9 @@ export const Icon = ({ variant }) => {
           r="5.21"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="227.01"
@@ -291,9 +291,9 @@ export const Icon = ({ variant }) => {
           r="5.21"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <circle
           cx="251.14"
@@ -301,9 +301,9 @@ export const Icon = ({ variant }) => {
           r="5.21"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
       </svg>
     );
@@ -322,9 +322,9 @@ export const Icon = ({ variant }) => {
           d="M277.75,84.15c0-26.19-21.23-47.42-47.42-47.42s-47.42,21.23-47.42,47.42c0,19.13,11.33,35.59,27.64,43.09v29.84c0,10.92,8.85,19.78,19.78,19.78s19.78-8.85,19.78-19.78v-29.84c16.31-7.5,27.64-23.97,27.64-43.09Z"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="210.73"
@@ -333,9 +333,9 @@ export const Icon = ({ variant }) => {
           y2="135.4"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="249.73"
@@ -344,9 +344,9 @@ export const Icon = ({ variant }) => {
           y2="147.94"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="249.29"
@@ -355,9 +355,9 @@ export const Icon = ({ variant }) => {
           y2="160.47"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="230.86"
@@ -366,25 +366,25 @@ export const Icon = ({ variant }) => {
           y2="135.16"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <path
           d="M240.32,85.18c0,5.08-9.2,14.2-9.2,14.2,0,0-9.2-9.12-9.2-14.2s4.12-9.2,9.2-9.2,9.2,4.12,9.2,9.2Z"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <path
           d="M202.03,82.8c0-14.91,12.08-26.99,26.99-26.99"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="230.78"
@@ -393,9 +393,9 @@ export const Icon = ({ variant }) => {
           y2="7.35"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="277.12"
@@ -404,9 +404,9 @@ export const Icon = ({ variant }) => {
           y2="30.38"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="185.02"
@@ -415,9 +415,9 @@ export const Icon = ({ variant }) => {
           y2="29.8"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="166.9"
@@ -426,9 +426,9 @@ export const Icon = ({ variant }) => {
           y2="83.89"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="294.95"
@@ -437,17 +437,17 @@ export const Icon = ({ variant }) => {
           y2="83.89"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <polyline
           points="230.42 190.08 230.42 291.32 167.23 291.32"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <rect
           x="25.09"
@@ -456,9 +456,9 @@ export const Icon = ({ variant }) => {
           height="163.13"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="46.61"
@@ -467,9 +467,9 @@ export const Icon = ({ variant }) => {
           y2="151.43"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="46.61"
@@ -478,9 +478,9 @@ export const Icon = ({ variant }) => {
           y2="171.43"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="47.39"
@@ -489,9 +489,9 @@ export const Icon = ({ variant }) => {
           y2="210.89"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="47.39"
@@ -500,9 +500,9 @@ export const Icon = ({ variant }) => {
           y2="230.89"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="46.61"
@@ -511,9 +511,9 @@ export const Icon = ({ variant }) => {
           y2="192.43"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
         <line
           x1="93.61"
@@ -522,9 +522,9 @@ export const Icon = ({ variant }) => {
           y2="192.43"
           fill="none"
           stroke="#fdfbf5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="4"
         />
       </svg>
     );
