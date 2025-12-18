@@ -14,7 +14,7 @@ const Projects = function(props) {
     )
 
   return (
-    <div class="projects" id="projects">
+    <div className="projects" id="projects">
       <motion.h1
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

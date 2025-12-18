@@ -20,8 +20,9 @@ const Contact = dynamic(() => import("../components/Contact.jsx"), {
 
 const Home = () => {
   return (
-    <div>
+    <div lang="en">
       <Head>
+        <html lang="en" />
         <title>Micaela Designs - Graphic Designer Portfolio</title>
         <meta name="description" content="Micaela is a graphic designer based in San Francisco, CA specializing in concept-driven branding, illustration, and front-end web design." />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

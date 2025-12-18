@@ -58,9 +58,9 @@ const Form = () => {
   };
 
   return (
-    <div class="formHolder">
+    <div className="formHolder">
       {!submitted ?
-        <form onSubmit={handleSubmit} class="contactForm">
+        <form onSubmit={handleSubmit} className="contactForm">
         <motion.input
           required
           onChange={handleNameChange}
@@ -91,7 +91,7 @@ const Form = () => {
           value={message.text}
           name="message"
           type="text"
-          class="bigInput"
+          className="bigInput"
           placeholder="Let's chat! What can I do for you?"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -99,7 +99,7 @@ const Form = () => {
           transition={{ duration: 0.6, delay: 0.9 }}
         />
         <motion.input
-          class="submitButton"
+          className="submitButton"
           type="submit"
           value="LET'S DO THIS"
           initial={{ opacity: 0, y: 50 }}
@@ -109,9 +109,9 @@ const Form = () => {
         />
         </form>
         :
-        <div class="thanks">
+        <div className="thanks">
 
-          <div class="airplane">
+          <div className="airplane">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}

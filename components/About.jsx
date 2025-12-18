@@ -10,17 +10,18 @@ const myLoader = ({ src, width, quality }) => {
 
 const About = memo(() => {
   return (
-    <div class="about" id="about">
-      <div class="profileImage">
+    <div className="about" id="about">
+      <div className="profileImage">
         <Image
           loader={myLoader}
           src="headshot-mic.jpg"
+          alt="Micaela Robinson-Duran headshot photo"
           fill
           style={{ objectFit: "cover" }}
           priority={true}
         />
       </div>
-      <div class="aboutText">
+      <div className="aboutText">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +57,7 @@ const About = memo(() => {
         </motion.p>
 
         <motion.a
-          class="resume"
+          className="resume"
           target="_blank"
           href="https://drive.google.com/file/d/1AeyJ24IC1x71IG5unCObBgcx9LjYc4Nz/view?usp=sharing
 "

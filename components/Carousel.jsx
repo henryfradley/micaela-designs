@@ -14,10 +14,10 @@ const Carousel = function (props) {
   const useLocalImages = props.project.useLocalImages || false;
 
   const types = props.project.types;
-  const typeList = types.map((type) => {
+  const typeList = types.map((type, index) => {
     return (
-      <div class="type">
-        <h5 key={types.indexOf(type)}>{type}</h5>
+      <div className="type" key={`type-${index}`}>
+        <h5>{type}</h5>
       </div>
     );
   });
@@ -30,8 +30,8 @@ const Carousel = function (props) {
   };
 
   return (
-    <div class="project">
-      <div class="description">
+    <div className="project">
+      <div className="description">
         <motion.h3
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +57,7 @@ const Carousel = function (props) {
           {props.project.secondaryText}
         </motion.p>
           <motion.div
-            class="types"
+            className="types"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -67,7 +67,7 @@ const Carousel = function (props) {
           </motion.div>
       </div>
       <div>
-        <div class="projectImage">
+        <div className="projectImage">
           <motion.div
             key={images[index]}
             initial={{ opacity: 0, y: 50 }}
@@ -87,48 +87,68 @@ const Carousel = function (props) {
           </motion.div>
         </div>
 
-        <li class="changeImage">
-          <motion.ul
-            onClick={() => setIndex(0)}
-            class={setClass(0)}
+        <ul className="changeImage">
+          <motion.li
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            01<div class="slider"></div>
-          </motion.ul>
-          <motion.ul
-            onClick={() => setIndex(1)}
-            class={setClass(1)}
+            <button
+              onClick={() => setIndex(0)}
+              className={setClass(0)}
+              aria-label="View image 1"
+            >
+              <span>01</span>
+              <div className="slider"></div>
+            </button>
+          </motion.li>
+          <motion.li
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            02<div class="slider"></div>
-          </motion.ul>
-          <motion.ul
-            onClick={() => setIndex(2)}
-            class={setClass(2)}
+            <button
+              onClick={() => setIndex(1)}
+              className={setClass(1)}
+              aria-label="View image 2"
+            >
+              <span>02</span>
+              <div className="slider"></div>
+            </button>
+          </motion.li>
+          <motion.li
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            03<div class="slider"></div>
-          </motion.ul>
-          <motion.ul
-            onClick={() => setIndex(3)}
-            class={setClass(3)}
+            <button
+              onClick={() => setIndex(2)}
+              className={setClass(2)}
+              aria-label="View image 3"
+            >
+              <span>03</span>
+              <div className="slider"></div>
+            </button>
+          </motion.li>
+          <motion.li
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            04<div class="slider"></div>
-          </motion.ul>
-        </li>
+            <button
+              onClick={() => setIndex(3)}
+              className={setClass(3)}
+              aria-label="View image 4"
+            >
+              <span>04</span>
+              <div className="slider"></div>
+            </button>
+          </motion.li>
+        </ul>
       </div>
     </div>
   );

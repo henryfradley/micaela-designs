@@ -12,11 +12,11 @@ const myLoader = ({ src, width, quality }) => {
 
 const Skills = memo(function Skills() {
   return (
-    <div class="skills" id="skills">
-      <div class="skillsLeft">
-        <div class="skillImages">
+    <div className="skills" id="skills">
+      <div className="skillsLeft">
+        <div className="skillImages">
           <motion.div
-            class="skillImageBlock"
+            className="skillImageBlock"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -25,7 +25,7 @@ const Skills = memo(function Skills() {
             <Image
               loader={myLoader}
               src="thumbsup.jpg"
-              alt="thumbs"
+              alt="Thumbs up gesture showing approval"
               fill
               style={{ objectFit: 'cover' }}
               priority={true}
@@ -33,7 +33,7 @@ const Skills = memo(function Skills() {
           </motion.div>
 
           <motion.div
-            class="skillImageBlock"
+            className="skillImageBlock"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -42,7 +42,7 @@ const Skills = memo(function Skills() {
             <Image
               loader={myLoader}
               src="coffeecup.jpg"
-              alt="coffee"
+              alt="Coffee cup on desk"
               fill
               style={{ objectFit: 'cover' }}
               priority={true}
@@ -50,7 +50,7 @@ const Skills = memo(function Skills() {
           </motion.div>
 
           <motion.div
-            class="skillImageBlock"
+            className="skillImageBlock"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -59,7 +59,7 @@ const Skills = memo(function Skills() {
             <Image
               loader={myLoader}
               src="wacom.jpg"
-              alt="wacom"
+              alt="Wacom drawing tablet for design work"
               fill
               style={{ objectFit: 'cover' }}
               priority={true}
@@ -67,7 +67,7 @@ const Skills = memo(function Skills() {
           </motion.div>
 
           <motion.div
-            class="skillImageBlock"
+            className="skillImageBlock"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -76,7 +76,7 @@ const Skills = memo(function Skills() {
             <Image
               loader={myLoader}
               src="desk.jpg"
-              alt="desk"
+              alt="Designer workspace desk"
               fill
               style={{ objectFit: 'cover' }}
               priority={true}
@@ -85,7 +85,7 @@ const Skills = memo(function Skills() {
         </div>
       </div>
 
-      <div class="goodAt">
+      <div className="goodAt">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -94,18 +94,18 @@ const Skills = memo(function Skills() {
         >
           WHAT I'M GOOD AT
         </motion.h1>
-        <div class="boxes">
+        <div className="boxes">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            <div class="skillBox">
-              <div class="icon">
+            <div className="skillBox">
+              <div className="icon">
                 <Icon variant="icon-1" />
               </div>
-              <div class="iconText">
+              <div className="iconText">
                 <p>CONCEPT DRIVEN BRANDING</p>
               </div>
             </div>
@@ -116,11 +116,11 @@ const Skills = memo(function Skills() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            <div class="skillBox">
-              <div class="icon">
+            <div className="skillBox">
+              <div className="icon">
                 <Icon variant="icon-2" />
               </div>
-              <div class="iconText">
+              <div className="iconText">
                 <p>ILLUSTRATION</p>
               </div>
             </div>
@@ -132,11 +132,11 @@ const Skills = memo(function Skills() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.9 }}
           >
-            <div class="skillBox">
-              <div class="icon">
+            <div className="skillBox">
+              <div className="icon">
                 <Icon variant="icon-3" />
               </div>
-              <div class="iconText">
+              <div className="iconText">
                 <p>FRONT END WEB DESIGN</p>
               </div>
             </div>
@@ -148,11 +148,11 @@ const Skills = memo(function Skills() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 1.0 }}
           >
-            <div class="skillBox">
-              <div class="icon">
+            <div className="skillBox">
+              <div className="icon">
                 <Icon variant="icon-4" />
               </div>
-              <div class="iconText">
+              <div className="iconText">
                 <p>CREATIVE PROBLEM SOLVING</p>
               </div>
             </div>

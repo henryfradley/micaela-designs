@@ -402,13 +402,34 @@ h1 {
 
 
 
- .changeImage ul {
+ .changeImage li {
   font-family: 'Rubik';
   font-weight: 800;
   cursor: pointer;
   width: 20%;
   text-align: right;
   transition: .3s ease-in-out;
+}
+
+.changeImage button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.changeImage button span {
+  display: block;
+  width: 100%;
+  color: inherit;
 }
 
 
@@ -419,6 +440,14 @@ h1 {
 
 .selected {
   transition: .1s ease-in-out;
+  color: var(--secondaryColor);
+}
+
+.changeImage button.notSelected {
+  color: var(--mainColor);
+}
+
+.changeImage button.selected {
   color: var(--secondaryColor);
 }
 
