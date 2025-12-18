@@ -14,25 +14,25 @@ const Main = function () {
 
   return (
     <div className="main" id="main">
-      <nav className="navbar">
+      <nav class="navbar">
         <ul>
-          <li className="pageLink" onClick={scroll} name="main">
+          <li class="pageLink" onClick={scroll} name="main">
             HOME
           </li>
-          <li className="pageLink" onClick={scroll} name="projects">
+          <li class="pageLink" onClick={scroll} name="projects">
             WORK
           </li>
-          <li className="pageLink" onClick={scroll} name="about">
+          <li class="pageLink" onClick={scroll} name="about">
             ABOUT
           </li>
-          <li className="pageLink" onClick={scroll} name="contact">
+          <li class="pageLink" onClick={scroll} name="contact">
             CONTACT
           </li>
         </ul>
       </nav>
-      <div className="mainPage">
+      <div class="mainPage">
         <motion.div
-          className="mainText"
+          class="mainText"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -45,14 +45,14 @@ const Main = function () {
           </h3>
 
           <div
-            className="getInTouch"
+            class="getInTouch"
             onClick={scroll}
             name="contact"
           >
             GET IN TOUCH
           </div>
         </motion.div>
-        <div className="illustration" />
+        <div class="illustration" />
       </div>
     </div>
   );

@@ -12,13 +12,13 @@ const Footer = () => {
 
 
   return (
-    <div className="footer">
+    <div class="footer">
       <h4>MICAELA ROBINSON</h4>
         <ul>
-          <li className="pageLink" onClick={scroll} name="main">HOME</li>
-          <li className="pageLink" onClick={scroll} name="projects">WORK</li>
-          <li className="pageLink" onClick={scroll} name="about">ABOUT</li>
-          <li className="pageLink" onClick={scroll} name="contact">CONTACT</li>
+          <li class="pageLink" onClick={scroll} name="main">HOME</li>
+          <li class="pageLink" onClick={scroll} name="projects">WORK</li>
+          <li class="pageLink" onClick={scroll} name="about">ABOUT</li>
+          <li class="pageLink" onClick={scroll} name="contact">CONTACT</li>
         </ul>
     </div>
   );
