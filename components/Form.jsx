@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Fade from 'react-reveal/Fade';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 
@@ -61,40 +61,86 @@ const Form = () => {
     <div class="formHolder">
       {!submitted ?
         <form onSubmit={handleSubmit} class="contactForm">
-        <Fade distance="5vh" delay={500} bottom>
-          <input required onChange={handleNameChange} value={message.name} name="name" type="text" placeholder="Your Name"></input>
-        </Fade>
-        <Fade distance="5vh" delay={700} bottom>
-          <input required onChange={handleEmailChange} value={message.email} name="email" type="email" placeholder="Your Email"></input>
-        </Fade>
-        <Fade distance="5vh" delay={900} bottom>
-          <textarea required onChange={handleTextChange} value={message.text} name="message" type="text" class="bigInput" placeholder="Let's chat! What can I do for you?"></textarea>
-        </Fade>
-        <Fade distance="5vh" delay={1100} bottom>
-          <input class="submitButton" type="submit" value="LET'S DO THIS"></input>
-        </Fade>
+        <motion.input
+          required
+          onChange={handleNameChange}
+          value={message.name}
+          name="name"
+          type="text"
+          placeholder="Your Name"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+        />
+        <motion.input
+          required
+          onChange={handleEmailChange}
+          value={message.email}
+          name="email"
+          type="email"
+          placeholder="Your Email"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.7 }}
+        />
+        <motion.textarea
+          required
+          onChange={handleTextChange}
+          value={message.text}
+          name="message"
+          type="text"
+          class="bigInput"
+          placeholder="Let's chat! What can I do for you?"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.9 }}
+        />
+        <motion.input
+          class="submitButton"
+          type="submit"
+          value="LET'S DO THIS"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 1.1 }}
+        />
         </form>
         :
         <div class="thanks">
 
           <div class="airplane">
-          <Fade distance="5vh" delay={100} bottom>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
             <Image
               src="/Airplane.png"
               alt="airplane"
               width="1378"
               height="620"
             />
-          </Fade>
+          </motion.div>
           </div>
 
 
-          <Fade distance="5vh" bottom>
-          <h3>THANKS FOR YOUR MESSAGE!</h3>
-          </Fade>
-          <Fade distance="5vh" delay={100} bottom>
-          <p>I will be in touch with you soon!</p>
-          </Fade>
+          <motion.h3
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+          THANKS FOR YOUR MESSAGE!
+          </motion.h3>
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
+          I will be in touch with you soon!
+          </motion.p>
         </div>
 
       }

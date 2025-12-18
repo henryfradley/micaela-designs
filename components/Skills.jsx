@@ -1,4 +1,4 @@
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 import { Icon } from "./Icon";
@@ -14,115 +14,148 @@ const Skills = function () {
     <div class="skills" id="skills">
       <div class="skillsLeft">
         <div class="skillImages">
-          <Fade distance="5vh" delay={500} bottom>
-            <div class="skillImageBlock">
-              <Image
-                loader={myLoader}
-                src="thumbsup.jpg"
-                alt="thumbs"
-                fill
-                style={{ objectFit: 'cover' }}
-                priority={true}
-              />
-            </div>
-          </Fade>
+          <motion.div
+            class="skillImageBlock"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+          >
+            <Image
+              loader={myLoader}
+              src="thumbsup.jpg"
+              alt="thumbs"
+              fill
+              style={{ objectFit: 'cover' }}
+              priority={true}
+            />
+          </motion.div>
 
-          <Fade distance="5vh" delay={600} bottom>
-            <div class="skillImageBlock">
-              <Image
-                loader={myLoader}
-                src="coffeecup.jpg"
-                alt="coffee"
-                fill
-                style={{ objectFit: 'cover' }}
-                priority={true}
-              />
-            </div>
-          </Fade>
+          <motion.div
+            class="skillImageBlock"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+          >
+            <Image
+              loader={myLoader}
+              src="coffeecup.jpg"
+              alt="coffee"
+              fill
+              style={{ objectFit: 'cover' }}
+              priority={true}
+            />
+          </motion.div>
 
-          <Fade distance="5vh" delay={700} bottom>
-            <div class="skillImageBlock">
-              <Image
-                loader={myLoader}
-                src="wacom.jpg"
-                alt="wacom"
-                fill
-                style={{ objectFit: 'cover' }}
-                priority={true}
-              />
-            </div>
-          </Fade>
+          <motion.div
+            class="skillImageBlock"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+          >
+            <Image
+              loader={myLoader}
+              src="wacom.jpg"
+              alt="wacom"
+              fill
+              style={{ objectFit: 'cover' }}
+              priority={true}
+            />
+          </motion.div>
 
-          <Fade distance="5vh" delay={800} bottom>
-            <div class="skillImageBlock">
-              <Image
-                loader={myLoader}
-                src="desk.jpg"
-                alt="desk"
-                fill
-                style={{ objectFit: 'cover' }}
-                priority={true}
-              />
-            </div>
-          </Fade>
+          <motion.div
+            class="skillImageBlock"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+          >
+            <Image
+              loader={myLoader}
+              src="desk.jpg"
+              alt="desk"
+              fill
+              style={{ objectFit: 'cover' }}
+              priority={true}
+            />
+          </motion.div>
         </div>
       </div>
 
       <div class="goodAt">
-        <Fade distance="5vh" delay={500} bottom>
-          <h1>WHAT I'M GOOD AT</h1>
-        </Fade>
+        <motion.h1
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+        >
+          WHAT I'M GOOD AT
+        </motion.h1>
         <div class="boxes">
-          <Fade distance="5vh" delay={700} bottom>
-            <div>
-              <div class="skillBox">
-                <div class="icon">
-                  <Icon variant="icon-1" />
-                </div>
-                <div class="iconText">
-                  <p>CONCEPT DRIVEN BRANDING</p>
-                </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+          >
+            <div class="skillBox">
+              <div class="icon">
+                <Icon variant="icon-1" />
+              </div>
+              <div class="iconText">
+                <p>CONCEPT DRIVEN BRANDING</p>
               </div>
             </div>
-          </Fade>
-          <Fade distance="5vh" delay={800} bottom>
-            <div>
-              <div class="skillBox">
-                <div class="icon">
-                  <Icon variant="icon-2" />
-                </div>
-                <div class="iconText">
-                  <p>ILLUSTRATION</p>
-                </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+          >
+            <div class="skillBox">
+              <div class="icon">
+                <Icon variant="icon-2" />
+              </div>
+              <div class="iconText">
+                <p>ILLUSTRATION</p>
               </div>
             </div>
-          </Fade>
+          </motion.div>
 
-          <Fade distance="5vh" delay={900} bottom>
-            <div>
-              <div class="skillBox">
-                <div class="icon">
-                  <Icon variant="icon-3" />
-                </div>
-                <div class="iconText">
-                  <p>FRONT END WEB DESIGN</p>
-                </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.9 }}
+          >
+            <div class="skillBox">
+              <div class="icon">
+                <Icon variant="icon-3" />
+              </div>
+              <div class="iconText">
+                <p>FRONT END WEB DESIGN</p>
               </div>
             </div>
-          </Fade>
+          </motion.div>
 
-          <Fade distance="5vh" delay={1000} bottom>
-            <div>
-              <div class="skillBox">
-                <div class="icon">
-                  <Icon variant="icon-4" />
-                </div>
-                <div class="iconText">
-                  <p>CREATIVE PROBLEM SOLVING</p>
-                </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 1.0 }}
+          >
+            <div class="skillBox">
+              <div class="icon">
+                <Icon variant="icon-4" />
+              </div>
+              <div class="iconText">
+                <p>CREATIVE PROBLEM SOLVING</p>
               </div>
             </div>
-          </Fade>
+          </motion.div>
         </div>
       </div>
     </div>

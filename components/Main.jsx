@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 
 const Main = function () {
   const scroll = (event) => {
@@ -31,20 +31,27 @@ const Main = function () {
         </ul>
       </nav>
       <div class="mainPage">
-        <div class="mainText">
-          <Fade distance="5vh" delay={500} bottom>
-            <h1>HI. I'M MICAELA,</h1>
-          </Fade>
-          <Fade distance="5vh" delay={700} bottom>
-            <h3>A GRAPHIC DESIGNER BASED IN SAN FRANCISCO, CA.</h3>
-          </Fade>
+        <motion.div
+          class="mainText"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <h1>
+            HI. I'M MICAELA,
+          </h1>
+          <h3>
+            A GRAPHIC DESIGNER BASED IN SAN FRANCISCO, CA.
+          </h3>
 
-          <Fade distance="5vh" delay={900} bottom>
-            <div class="getInTouch" onClick={scroll} name="contact">
-              GET IN TOUCH
-            </div>
-          </Fade>
-        </div>
+          <div
+            class="getInTouch"
+            onClick={scroll}
+            name="contact"
+          >
+            GET IN TOUCH
+          </div>
+        </motion.div>
         <div class="illustration" />
       </div>
     </div>

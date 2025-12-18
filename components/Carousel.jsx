@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 const myLoader = ({ src, width, quality }) => {
@@ -32,22 +32,49 @@ const Carousel = function (props) {
   return (
     <div class="project">
       <div class="description">
-        <Fade distance="5vh" delay={500} bottom>
-          <h3>{props.project.name}</h3>
-        </Fade>
-        <Fade distance="5vh" delay={550} bottom>
-          <p>{props.project.mainText}</p>
-        </Fade>
-        <Fade distance="5vh" delay={600} bottom>
-          <p>{props.project.secondaryText}</p>
-        </Fade>
-          <Fade distance="5vh" delay={600} bottom>
-            <div class="types">{typeList}</div>
-          </Fade>
+        <motion.h3
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+        >
+          {props.project.name}
+        </motion.h3>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.55 }}
+        >
+          {props.project.mainText}
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
+          {props.project.secondaryText}
+        </motion.p>
+          <motion.div
+            class="types"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+          >
+            {typeList}
+          </motion.div>
       </div>
       <div>
         <div class="projectImage">
-          <Fade distance="5vh" delay={500} bottom>
+          <motion.div
+            key={images[index]}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+          >
             <Image
               key={images[index]}
               loader={useLocalImages ? undefined : myLoader}
@@ -57,30 +84,50 @@ const Carousel = function (props) {
               style={{ maxWidth: '100%', height: 'auto' }}
               priority={true}
             />
-          </Fade>
+          </motion.div>
         </div>
 
         <li class="changeImage">
-          <Fade distance="5vh" delay={500} bottom>
-            <ul onClick={() => setIndex(0)} class={setClass(0)}>
-              01<div class="slider"></div>
-            </ul>
-          </Fade>
-          <Fade distance="5vh" delay={600} bottom>
-            <ul onClick={() => setIndex(1)} class={setClass(1)}>
-              02<div class="slider"></div>
-            </ul>
-          </Fade>
-          <Fade distance="5vh" delay={700} bottom>
-            <ul onClick={() => setIndex(2)} class={setClass(2)}>
-              03<div class="slider"></div>
-            </ul>
-          </Fade>
-          <Fade distance="5vh" delay={800} bottom>
-            <ul onClick={() => setIndex(3)} class={setClass(3)}>
-              04<div class="slider"></div>
-            </ul>
-          </Fade>
+          <motion.ul
+            onClick={() => setIndex(0)}
+            class={setClass(0)}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+          >
+            01<div class="slider"></div>
+          </motion.ul>
+          <motion.ul
+            onClick={() => setIndex(1)}
+            class={setClass(1)}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+          >
+            02<div class="slider"></div>
+          </motion.ul>
+          <motion.ul
+            onClick={() => setIndex(2)}
+            class={setClass(2)}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+          >
+            03<div class="slider"></div>
+          </motion.ul>
+          <motion.ul
+            onClick={() => setIndex(3)}
+            class={setClass(3)}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+          >
+            04<div class="slider"></div>
+          </motion.ul>
         </li>
       </div>
     </div>

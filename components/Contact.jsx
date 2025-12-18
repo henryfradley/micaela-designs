@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Form from "./Form.jsx";
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FiDribbble } from "react-icons/fi";
 import Footer from './Footer.jsx'
@@ -17,42 +17,55 @@ const Contact = () => {
       <div class="contact">
         <div class="contactText">
           <div class="workTogether">
-            <Fade distance="5vh" delay={500} bottom>
-              <div>
-                <h1>I'M CURRENTLY LOOKING FOR NEW WORK OPPORTUNITIES.</h1>
-              </div>
-            </Fade>
-            <Fade distance="5vh" delay={600} bottom>
-              <div>
-                <h2>
-                  Feel free to reach out if you think I'd be a good fit, or to
-                  just say hi!
-                </h2>
-              </div>
-            </Fade>
-            <Fade distance="5vh" delay={700} bottom>
-              <div>
-                <a href="mailto:micaela.rob@gmail.com">micaela.rob@gmail.com</a>
-              </div>
-            </Fade>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+            >
+              <h1>I'M CURRENTLY LOOKING FOR NEW WORK OPPORTUNITIES.</h1>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+            >
+              <h2>
+                Feel free to reach out if you think I'd be a good fit, or to
+                just say hi!
+              </h2>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.7 }}
+            >
+              <a href="mailto:micaela.rob@gmail.com">micaela.rob@gmail.com</a>
+            </motion.div>
             <div class="socials">
-              <Fade distance="5vh" delay={1100} bottom>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/micaela-robinson-duran-a6b92b1bb/"
-                >
-                  <FaLinkedin size="35px" color="#FDFBF5" />
-                </a>
-              </Fade>
+              <motion.a
+                target="_blank"
+                href="https://www.linkedin.com/in/micaela-robinson-duran-a6b92b1bb/"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 1.1 }}
+              >
+                <FaLinkedin size="35px" color="#FDFBF5" />
+              </motion.a>
 
-              <Fade distance="5vh" delay={1300} bottom>
-                <a
-                  target="_blank"
-                  href="https://dribbble.com/micaela6/shots"
-                >
-                  <FiDribbble size="35px" color="#FDFBF5" />
-                </a>
-              </Fade>
+              <motion.a
+                target="_blank"
+                href="https://dribbble.com/micaela6/shots"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 1.3 }}
+              >
+                <FiDribbble size="35px" color="#FDFBF5" />
+              </motion.a>
             </div>
           </div>
         </div>
