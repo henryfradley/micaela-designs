@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { memo } from "react";
 
 import { Icon } from "./Icon";
 
@@ -9,7 +10,7 @@ const myLoader = ({ src, width, quality }) => {
   }`;
 };
 
-const Skills = function () {
+const Skills = memo(function Skills() {
   return (
     <div class="skills" id="skills">
       <div class="skillsLeft">
@@ -160,6 +161,8 @@ const Skills = function () {
       </div>
     </div>
   );
-};
+});
+
+Skills.displayName = 'Skills';
 
 export default Skills;

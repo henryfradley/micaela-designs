@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { memo } from "react";
 
 const myLoader = ({ src, width, quality }) => {
   return `https://d2k5lcv0ndozn2.cloudfront.net/${src}?w=${width}&q=${
@@ -7,7 +8,7 @@ const myLoader = ({ src, width, quality }) => {
   }`;
 };
 
-const About = () => {
+const About = memo(() => {
   return (
     <div class="about" id="about">
       <div class="profileImage">
@@ -69,6 +70,8 @@ const About = () => {
       </div>
     </div>
   );
-};
+});
+
+About.displayName = 'About';
 
 export default About;

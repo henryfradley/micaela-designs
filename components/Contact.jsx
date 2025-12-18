@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { memo } from "react";
 import Form from "./Form.jsx";
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -11,7 +12,7 @@ const myLoader = ({ src, width, quality }) => {
   }`;
 };
 
-const Contact = () => {
+const Contact = memo(() => {
   return (
     <div class="contactPage" id="contact">
       <div class="contact">
@@ -83,6 +84,8 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+});
+
+Contact.displayName = 'Contact';
 
 export default Contact;
